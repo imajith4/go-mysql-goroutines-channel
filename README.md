@@ -41,7 +41,6 @@ Userid -  3 , Location -  jane location  added to channel
 Userid -  3 , Location -  jane location . Inserted to encounter
 Userid -  3 , Location -  jane location  Logtype - Portal , Module - Calendar. Inserted to Audit Log
 
-
 #concurrency vs parallelism
 If there’s one thing most people know about Go, is that it is designed for concurrency. No introduction to Go is complete without a demonstration of its goroutines and channels.
 
