@@ -17,7 +17,9 @@ Perform the following steps:
  - 2 structures defined (Encounter, AuditLog) implements the interface Event
  - There is a form to add bulk data 
  - in main package there is 2  goroutines defined 
+ 
         *  poolDataToChannel -  To pool the bulk data into a channel
+       
         *  insertDataFromPool -  To insert data into encounter , audit log from the channel   
 
  - When the form is filled and submitted 2 goroutines run concurrenlty ie.. fetching and insertion is done concorrently
