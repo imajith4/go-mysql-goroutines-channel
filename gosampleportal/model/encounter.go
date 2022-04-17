@@ -89,19 +89,15 @@ func insertDataFromPool(c chan Event) {
 }
 
 func formToSlice(r *http.Request) []Event {
-	//myslice := Event{}[1:3]
 
-	//var my_slice_1 = []string{"Geeks", "for", "Geeks"}
 	location1 := r.FormValue("location1")
 	userid1, _ := strconv.ParseInt(r.FormValue("userid1"), 10, 64)
 
 	enc1 := Event{1, location1, userid1}
-	//go addToChannel(c, enc1, w)
 	location2 := r.FormValue("location2")
 	userid2, _ := strconv.ParseInt(r.FormValue("userid2"), 10, 64)
 
 	enc2 := Event{2, location2, userid2}
-	//go addToChannel(c, enc2, w)
 	location3 := r.FormValue("location3")
 	userid3, _ := strconv.ParseInt(r.FormValue("userid3"), 10, 64)
 

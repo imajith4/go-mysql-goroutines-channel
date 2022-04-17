@@ -26,7 +26,6 @@ func GetAllEncounters(w http.ResponseWriter, r *http.Request) {
 
 func getall(g model.Encounter, w http.ResponseWriter, r *http.Request) {
 	g.All(w, r)
-	//fmt.Println(g.perim())
 }
 
 func SaveEncounter(w http.ResponseWriter, r *http.Request) {
@@ -35,7 +34,6 @@ func SaveEncounter(w http.ResponseWriter, r *http.Request) {
 }
 func saveEnc(g model.Encounter, w http.ResponseWriter, r *http.Request) {
 	g.New(w, r)
-	//fmt.Println(g.perim())
 }
 
 //------------encounter related functions---------
@@ -48,7 +46,6 @@ func GetAllLog(w http.ResponseWriter, r *http.Request) {
 
 func getallLog(g model.AuditLog, w http.ResponseWriter, r *http.Request) {
 	g.All(w, r)
-	//fmt.Println(g.perim())
 }
 
 func SaveLog(w http.ResponseWriter, r *http.Request) {
@@ -57,7 +54,6 @@ func SaveLog(w http.ResponseWriter, r *http.Request) {
 }
 func saveLog(g model.AuditLog, w http.ResponseWriter, r *http.Request) {
 	g.New(w, r)
-	//fmt.Println(g.perim())
 }
 
 //------------log related functions---------
