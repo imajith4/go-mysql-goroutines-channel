@@ -26,20 +26,32 @@ Perform the following steps:
 _> cd gosampleportal
 
 gosampleportal _> run go .  (in windows)
+
 gosampleportal _> run go *.go  (in linux)
 
 
 # Sample console output
+
 D:\code\gosampleportal>go run .
+
 Userid -  1 , Location -  john location   added to channel
+
 Userid -  1 , Location -  john location  . Inserted to encounter
+
 Userid -  1 , Location -  john location   Logtype - Portal , Module - Calendar. Inserted to Audit Log
+
 Userid -  2 , Location -  joe location  added to channel
+
 Userid -  2 , Location -  joe location . Inserted to encounter
+
 Userid -  2 , Location -  joe location  Logtype - Portal , Module - Calendar. Inserted to Audit Log
+
 Userid -  3 , Location -  jane location  added to channel
+
 Userid -  3 , Location -  jane location . Inserted to encounter
+
 Userid -  3 , Location -  jane location  Logtype - Portal , Module - Calendar. Inserted to Audit Log
+
 
 #concurrency vs parallelism
 If there’s one thing most people know about Go, is that it is designed for concurrency. No introduction to Go is complete without a demonstration of its goroutines and channels.
