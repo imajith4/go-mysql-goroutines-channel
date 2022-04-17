@@ -52,8 +52,8 @@ Userid -  3 , Location -  jane location . Inserted to encounter
 
 Userid -  3 , Location -  jane location  Logtype - Portal , Module - Calendar. Inserted to Audit Log
 
+# concurrency vs parallelism
 
-#concurrency vs parallelism
 If there’s one thing most people know about Go, is that it is designed for concurrency. No introduction to Go is complete without a demonstration of its goroutines and channels.
 
 But when people hear the word concurrency they often think of parallelism, a related but quite distinct concept. In programming, concurrency is the composition of independently executing processes, while parallelism is the simultaneous execution of (possibly related) computations. Concurrency is about dealing with lots of things at once. Parallelism is about doing lots of things at once.
