@@ -14,7 +14,7 @@ Perform the following steps:
   
  # WorkFlow
  - This application has a basic interface Event which has 2 abstract functions All(), New()
- - 2 structures defined (Encounter, AuditLog) implements the interface Event
+ - 2 structures are defined (Encounter, AuditLog). The models Encounter, AuditLog  implements methods of  the event interface.
  - There is a form to add bulk data 
  - in main package there is 2  goroutines defined 
  
