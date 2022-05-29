@@ -27,9 +27,9 @@ Perform the following steps:
 # Run the application
 _> cd gosampleportal
 
-gosampleportal _> run go .  (in windows)
+gosampleportal _>go run .  (in windows)
 
-gosampleportal _> run go *.go  (in linux)
+gosampleportal _>go run *.go  (in linux)
 
 
 # Sample console output
